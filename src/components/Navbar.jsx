@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import Logo from '../assets/logo.jpeg'
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -16,9 +17,9 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             <Link to="/">
               <img 
-                src="/src/assets/logo.jpeg" 
+                src={Logo} 
                 alt="Logo" 
-                className="h-12 w-auto object-contain"
+                className="h-14 w-auto object-contain"
               />
             </Link>
           </div>
