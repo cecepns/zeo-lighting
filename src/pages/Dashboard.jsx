@@ -75,7 +75,7 @@ const Dashboard = () => {
     {
       title: 'Buat PO Baru',
       description: 'Tambah purchase order baru',
-      link: '/po',
+      link: '/admin/po',
       icon: FileText,
       color: 'text-primary-600',
       bgColor: 'bg-primary-50'
@@ -99,7 +99,7 @@ const Dashboard = () => {
     {
       title: 'Laporan Keuangan',
       description: 'Lihat laporan dan analisis',
-      link: '/reports',
+      link: '/admin/reports',
       icon: TrendingUp,
       color: 'text-green-600',
       bgColor: 'bg-green-50'
