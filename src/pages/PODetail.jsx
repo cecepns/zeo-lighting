@@ -73,7 +73,7 @@ const PODetail = () => {
       </head>
       <body>
         <div class="header">
-          <div class="company">GENSET RENTAL</div>
+          <div class="company">ZEO LIGHTING</div>
           <div class="invoice-title">INVOICE / PURCHASE ORDER</div>
           <div style="margin-top: 10px; font-size: 14px;">${po.po_number}</div>
         </div>
@@ -158,7 +158,7 @@ const PODetail = () => {
           <div class="signature-area">
             <div style="margin-bottom: 10px; font-weight: bold;">Admin</div>
             ${po.signature_admin ? `<img src="${po.signature_admin}" style="max-height: 60px;">` : ''}
-            <div class="signature-line">Genset Rental</div>
+            <div class="signature-line">ZEO LIGHTING</div>
           </div>
         </div>
 
@@ -499,7 +499,7 @@ const PODetail = () => {
                 Belum ada tanda tangan
               </div>
             )}
-            <p className="mt-2 text-sm font-medium text-gray-700">Genset Rental</p>
+            <p className="mt-2 text-sm font-medium text-gray-700">ZEO LIGHTING</p>
           </div>
         </div>
       </div>

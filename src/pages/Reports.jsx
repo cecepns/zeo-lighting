@@ -57,7 +57,7 @@ const Reports = () => {
       <!DOCTYPE html>
       <html>
       <head>
-        <title>Laporan Keuangan - Genset Rental</title>
+        <title>Laporan Keuangan - ZEO LIGHTING</title>
         <style>
           body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
           .header { text-align: center; border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 30px; }
@@ -78,7 +78,7 @@ const Reports = () => {
       </head>
       <body>
         <div class="header">
-          <div class="company">GENSET RENTAL</div>
+          <div class="company">ZEO LIGHTING</div>
           <div class="report-title">LAPORAN KEUANGAN</div>
           <div class="periode">Periode: ${reportData.periode}</div>
         </div>
@@ -110,7 +110,7 @@ const Reports = () => {
 
         <div class="footer">
           <p>Laporan dibuat pada: ${reportData.tanggalGenerate}</p>
-          <p>Genset Rental Management System</p>
+          <p>ZEO LIGHTING Management System</p>
         </div>
       </body>
       </html>

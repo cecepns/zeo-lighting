@@ -49,7 +49,7 @@ const Login = () => {
             <Zap className="w-10 h-10 text-white" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Genset Rental Admin
+            ZEO LIGHTING Admin
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Sign in to your account to continue
